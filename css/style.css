@@ -66,7 +66,7 @@ nav ul li{
 .container_bot{
     height: 700px;
     background-image: url('../img/jumbo.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -111,7 +111,8 @@ p{
 }
 
 .diverso{
-    min-height: 1000px;
+    height: 1000px;
+    padding: 100px;
 }
 
 .contenuto_diverso{
@@ -121,9 +122,6 @@ p{
     margin: auto;
 }
 
-.contenuto_diverso h1{
-
-}
 
 .stelline{
     background-image: url(../img/stars.svg);
