@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*inizio header*/
+body{
+    font-family: sans-serif;
+}
+
+button{
+    height: 50px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.button1{
+    border: #ffffff;
+}
+
+.button2{
+    border: #23272a;
+    background-color: #23272a;
+    color: white;
+}
+
+i{
+   margin: 0px 5px;
+}
+
+.header-top{
+    background-color: #255ee9;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_top{
+    background-color: orange;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo, .login{
+    width: 20%;
+}
+
+.login{
+    text-align: right;
+}
+
+nav{
+    width: 60%;
+    text-align: center;
+}
+
+.container_bot{
+    height: 700px;
+    background-image: url('../img/jumbo.png');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+   margin: 30px; 
+}
+
+.testo_header{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+/*fine header*/
+
+/*inizio main*/
+.box_esterno{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenuto, .contenitore_blocchi{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenuto1{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 70%;
+}
+
+.contenuto2{
+    background-color: pink;
+    height: 300px;
+    width: 30%;
+}
+
+.box_esterno:nth-child(2n){
+    background-color: lightgrey
+}
+
+.diverso{
+    height: 700px;
+}
+
+.contenuto_verde{
+    height: 600px;
+    width: 50%;
+    background-color: green;
+}
+/*fine main*/
+
+/*inizio footer*/
+.footer_top{
+    background-color: #23272A;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celeste{
+    background-color: aqua;
+    width: 15%;
+    height: 450px;
+    border: 1px dotted white;
+}
+
+.blocco_1{
+    background-color: pink;
+    width: 40%;
+    height: 450px;
+}
+
+.footer_bot{
+    background-color: #23272A;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.registrati{
+    background-color: aqua;
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2{
+    border: 1px dotted black;
+    background-color: pink;
+    font-size: 30px;
+}
+
+.bottone_reg{
+    border: 1px dotted black;
+    background-color: pink;
+    font-size: 30px;
+}
+/*fine footer*/
