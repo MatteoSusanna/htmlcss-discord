@@ -109,7 +109,7 @@ p{
 
 
 .stelline{
-    background-image: url(../img/stars.svg);
+    background-image: url('../img/stars.svg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 100px;
