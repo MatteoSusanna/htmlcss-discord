@@ -5,7 +5,7 @@
 }
 /*inizio header*/
 body{
-    font-family: sans-serif;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 button{
@@ -24,6 +24,10 @@ button{
     color: white;
 }
 
+.button_mac{
+    background-color: #7289da;
+}
+
 i{
    margin: 0px 5px;
 }
@@ -37,38 +41,40 @@ i{
 }
 
 .container_top{
-    background-color: orange;
     height: 30px;
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo, .login{
-    width: 20%;
-}
-
-.login{
-    text-align: right;
-}
-
 nav{
-    width: 60%;
-    text-align: center;
+    width: 90%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 20px;
 }
 
 .container_bot{
     height: 700px;
     background-image: url('../img/jumbo.png');
     background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 p{
-   margin: 30px; 
+   margin: 30px 0px; 
 }
 
 .testo_header{
@@ -89,37 +95,41 @@ p{
 }
 
 .contenuto, .contenitore_blocchi{
-    width: 50%;
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 
-.contenuto1{
-    background-color: cornflowerblue;
-    height: 300px;
-    width: 70%;
+.contenuto2{    
+    width: 20%;
 }
 
-.contenuto2{
-    background-color: pink;
-    height: 300px;
-    width: 30%;
-}
-
-.box_esterno:nth-child(2n){
+.grigio{
     background-color: lightgrey
 }
 
 .diverso{
-    height: 700px;
+    min-height: 1000px;
 }
 
-.contenuto_verde{
+.contenuto_diverso{
     height: 600px;
-    width: 50%;
-    background-color: green;
+    width: 40%;
+    text-align: center;
+    margin: auto;
 }
+
+.contenuto_diverso h1{
+
+}
+
+.stelline{
+    background-image: url(../img/stars.svg);
+
+}
+
 /*fine main*/
 
 /*inizio footer*/
