@@ -3,34 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*inizio header*/
+
 body{
     font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-button{
-    height: 50px;
-    border-radius: 25px;
-    padding: 15px;
-}
-
-.button1{
-    border: #ffffff;
-}
-
-.button2{
-    border: #23272a;
-    background-color: #23272a;
-    color: white;
-}
-
-.button_mac{
-    background-color: #7289da;
-    width: 250px;
-    color: white;
-    font-size: 20px;
-}
-
+/*inizio header*/
 i{
    margin: 0px 5px;
 }
@@ -190,12 +168,29 @@ ul li{
     justify-content: space-between;
     align-items: center;
 }
-
-.logo2{
-    font-size: 30px;
-}
-
-.bottone_reg{
-    font-size: 30px;
-}
 /*fine footer*/
+
+
+/*stile button*/
+button{
+    height: 50px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.button1{
+    border: #ffffff;
+}
+
+.button2{
+    border: #23272a;
+    background-color: #23272a;
+    color: white;
+}
+
+.button_mac{
+    background-color: #7289da;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+}
