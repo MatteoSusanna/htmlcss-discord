@@ -175,8 +175,6 @@ li:first-child{
     height: 14px;
 }
 
-
-
 .footer_bot{
     background-color: #23272A;
     height: 120px;
@@ -186,23 +184,18 @@ li:first-child{
 }
 
 .registrati{
-    background-color: aqua;
     height: 100px;
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo2{
-    border: 1px dotted black;
-    background-color: pink;
     font-size: 30px;
 }
 
 .bottone_reg{
-    border: 1px dotted black;
-    background-color: pink;
     font-size: 30px;
 }
 /*fine footer*/
