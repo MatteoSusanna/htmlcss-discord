@@ -144,7 +144,7 @@ p{
     align-items: center;
 }
 
-.celeste{
+.col{
     width: 15%;
     height: 450px;
 }
@@ -162,7 +162,7 @@ ul li{
     font-size: 17px;
 }
 
-li:first-child{
+.col li:first-child{
     color:#7289da;
 }
 
