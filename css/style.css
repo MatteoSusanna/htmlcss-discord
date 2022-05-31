@@ -26,6 +26,9 @@ button{
 
 .button_mac{
     background-color: #7289da;
+    width: 250px;
+    color: white;
+    font-size: 20px;
 }
 
 i{
@@ -125,7 +128,9 @@ p{
 
 .stelline{
     background-image: url(../img/stars.svg);
-
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
 }
 
 /*fine main*/
@@ -140,17 +145,37 @@ p{
 }
 
 .celeste{
-    background-color: aqua;
     width: 15%;
     height: 450px;
-    border: 1px dotted white;
 }
 
 .blocco_1{
-    background-color: pink;
     width: 40%;
     height: 450px;
+    color: white;
 }
+
+ul li{
+    color: white;
+    list-style: none;
+    padding: 10px;
+    font-size: 17px;
+}
+
+li:first-child{
+    color:#7289da;
+}
+
+.blocco_1 h1{
+    color: #7289da;
+    font-size: 70px;
+}
+
+.blocco_1 p img{
+    height: 14px;
+}
+
+
 
 .footer_bot{
     background-color: #23272A;
