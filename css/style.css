@@ -167,6 +167,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 2px solid #7289da;
 }
 /*fine footer*/
 
@@ -190,7 +191,12 @@ button{
 
 .button_mac{
     background-color: #7289da;
+    border: #7289da;
     width: 250px;
     color: white;
     font-size: 20px;
+}
+
+.grandezza{
+    width: 160px;
 }
